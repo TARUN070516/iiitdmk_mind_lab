@@ -1,4 +1,4 @@
 .agents/
 .vscode/
-{css,js,data,images}
+css_js_data_images
 resources/
