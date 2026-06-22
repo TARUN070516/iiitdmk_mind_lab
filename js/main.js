@@ -97,9 +97,9 @@ function renderResearch(items) {
   if (!items.length) { grid.innerHTML = empty(); return; }
   grid.innerHTML = items.map(item => `
     <div class="research-card">
-      <img src="${item.image || 'https://via.placeholder.com/400x160/2980b9/ffffff?text=Research'}"
+      <img src="${item.image || 'images/default-research.jpeg'}"
            alt="${esc(item.title)}"
-           onerror="this.src='https://via.placeholder.com/400x160/2980b9/ffffff?text=Research'" />
+           onerror="this.src='images/default-research.jpeg'" />
       <div class="research-card-body">
         <h3>${esc(item.title)}</h3>
         <p>${esc(item.description)}</p>

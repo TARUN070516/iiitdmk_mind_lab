@@ -1,166 +1,234 @@
 {
-  "profile": {
-    "name": "Dr. J. Krishnaiah",
-    "title": "Associate Professor",
-    "department": "Department of Mechanical Engineering",
-    "institution": "IIITDM Kurnool",
-    "email": "krishnaiah@iiitk.ac.in",
-    "phone": "+91-94425 44782",
-    "office": "Room No. XXX, IIITDM Kurnool",
-    "photo": "images/profile.jpg",
-    "googleScholar": "#",
-    "researchGate": "#",
-    "linkedin": "https://www.linkedin.com/in/tarun-nelli-b24824298",
-    "orcid": "#"
-  },
-  "biography": {
-    "summary": "Dr. J. Krishnaiah is an Associate Professor in the Department of Mechanical Engineering at IIITDM Kurnool. His research focuses on advanced manufacturing processes, materials characterization, and computational mechanics.",
-    "details": "He received his Ph.D. from IIT Karaghpur and has extensive experience in research and teaching. He has published several papers in reputed international journals and conferences."
-  },
-  "research": [
-    {
-      "title": "Advanced Manufacturing",
-      "description": "Research on additive manufacturing, CNC machining, and precision engineering processes.",
-      "image": "images/research1.jpg"
+    "profile": {
+        "name": "Dr. J. Krishnaiah",
+        "title": "Associate Professor",
+        "department": "Department of Mechanical Engineering",
+        "institution": "IIITDM Kurnool",
+        "email": "krishnaiah@iiitk.ac.in",
+        "phone": "+91-94425 44782",
+        "office": "Room No. 100, IIITDM Kurnool",
+        "photo": "images/profile.jpg",
+        "googleScholar": "#",
+        "researchGate": "#",
+        "linkedin": "https://linkedin.com/in/krishnaiah",
+        "orcid": "#"
     },
-    {
-      "title": "Materials Characterization",
-      "description": "Study of mechanical properties, microstructure, and failure analysis of engineering materials.",
-      "image": "images/research2.jpg"
+    "biography": {
+        "summary": "Dr. J. Krishnaiah is an Associate Professor in the Department of Mechanical Engineering at IIITDM Kurnool. His research focuses on advanced manufacturing processes, materials characterization, and computational mechanics.",
+        "details": "He received his Ph.D. from IIT Karaghpur and has extensive experience in research and teaching. He has published several papers in reputed international journals and conferences."
     },
-    {
-      "title": "Computational Mechanics",
-      "description": "Finite element analysis, simulation of manufacturing processes, and structural optimization.",
-      "image": "images/research3.jpg"
-    }
-  ],
-  "experience": [
-    {
-      "position": "Assistant Professor",
-      "organization": "IIITDM Kurnool",
-      "duration": "2020 - Present",
-      "description": "Teaching and research in Mechanical Engineering."
-    }
-  ],
-  "education": [
-    {
-      "degree": "Ph.D. in Mechanical Engineering",
-      "institution": "Premier Institute, India",
-      "year": "2019",
-      "description": "Thesis on Advanced Manufacturing Processes"
-    },
-    {
-      "degree": "M.Tech in Manufacturing Engineering",
-      "institution": "University Name",
-      "year": "2014",
-      "description": ""
-    },
-    {
-      "degree": "B.Tech in Mechanical Engineering",
-      "institution": "University Name",
-      "year": "2012",
-      "description": ""
-    }
-  ],
-  "skills": [
-    "Advanced Manufacturing",
-    "Finite Element Analysis",
-    "MATLAB",
-    "ANSYS",
-    "SolidWorks",
-    "Python",
-    "CNC Programming",
-    "Materials Testing"
-  ],
-  "publications": {
-    "journals": [
-      {
-        "title": "Sample Journal Article Title on Advanced Manufacturing Processes",
-        "authors": "J. Krishnaiah, et al.",
-        "journal": "Journal of Manufacturing Science and Engineering",
-        "year": "2023",
-        "doi": "#"
-      }
+    "research": [
+        {
+            "title": "Advanced Manufacturing",
+            "image": "images/research1.jpg",
+            "description": "Research on additive manufacturing, CNC machining, and precision engineering processes."
+        },
+        {
+            "title": "Materials Characterization",
+            "image": "images/research2.jpg",
+            "description": "Study of mechanical properties, microstructure, and failure analysis of engineering materials."
+        },
+        {
+            "title": "Computational Mechanics",
+            "image": "images/research3.jpg",
+            "description": "Finite element analysis, simulation of manufacturing processes, and structural optimization."
+        }
     ],
-    "conferences": [
-      {
-        "title": "Sample Conference Paper on Materials Characterization",
-        "authors": "J. Krishnaiah, et al.",
-        "conference": "International Conference on Manufacturing Technology",
-        "year": "2022",
-        "doi": "#"
-      }
-    ]
-  },
-  "teaching": {
-    "current": [
-      {
-        "code": "ME101",
-        "name": "Engineering Mechanics",
-        "semester": "Even Semester 2024"
-      },
-      {
-        "code": "ME201",
-        "name": "Manufacturing Processes",
-        "semester": "Odd Semester 2024"
-      }
+    "experience": [
+        {
+            "position": "Associate Professor",
+            "organization": "Indian Institute of Information Technology Design and Manufacturing, Kurnool",
+            "duration": "Feb 2020 - Present",
+            "description": "Teaching and Research in Mechanical Engineering."
+        },
+        {
+            "position": "Sr. Manager (R&D), Corp R&D",
+            "organization": "Bharat Heavy Electricals Limited, Hyderabad",
+            "duration": "Jun 2018 - Feb 2020",
+            "description": ""
+        },
+        {
+            "position": "Manager (R&D) - Computational Intelligence Specialist",
+            "organization": "Bharat Heavy Electricals Limited, Trichy",
+            "duration": "Jun 2014 - Jun 2018",
+            "description": ""
+        },
+        {
+            "position": "Dy. Manager (R&D) - Computational Intelligence Specialist",
+            "organization": "Bharat Heavy Electricals Limited, Trichy",
+            "duration": "Dec 2010 - Jun 2014",
+            "description": "Application of Computational Intelligence, Datamining concepts to solve problems encounter in Power plant operations and to improve overall performance by applying sensitivity analysis based on Artificial Neural Networks models.Development of Sensitivity Analysis tool to work on PMML neuro models. Understanding dynamics of boiler for various operating conditions through building mathematical models and as well as data-driven models."
+        },
+        {
+            "position": "Project Manager",
+            "organization": "BioGenex Life Sciences Ltd",
+            "duration": "Aug 2009 - Dec 2010",
+            "description": "Software and System level development: Developing Medical Imaging System for Cell imaging and Image Analyzer to score severity of cancer. Developing Software for Automated Staining System (a robotic instrument to perform set of operations for cancer detection assays)"
+        },
+        {
+            "position": "Principal Consultant",
+            "organization": "Genpact Analytics, Bangalore",
+            "duration": "Sep 2006 - Aug 2009",
+            "description": "Worked on Web Analytics and Fraud Management solutions including: End-2-End Web Analytics Service Framework. Scorecard development framework using Neural Networks and Bayesian networks. A solution for Market Basket Analysis and its applications. Developed a Fuzzy String Matching Algorithm. A Study on Anti-Money Laudering solutioning in various Financial Industries."
+        },
+        {
+            "position": "Head, Artificial Intelligence Group",
+            "organization": "Comodo Security Solutions, Chennai",
+            "duration": "Sep 2005 - Sep 2006",
+            "description": "Research and Development on applications of Artificial Intelligence for Internet Security related to Anti-phishing, Anti-Malware. Developed a Image search concept Implemented a Proof of Concept to incorporate into Anti-Phishing core-engine."
+        },
+        {
+            "position": "Research Engineer",
+            "organization": "Chattary Summations, Ahmedabad",
+            "duration": "Feb 2005 - Aug 2005",
+            "description": "Conceptualized and Developed a Hand-Written Character Recognition System (for Sankrit and Prakrit Languages) using Neural Networks and Image Processing concepts.  -- Lead a team of 6 -- Total end-to-end flow was designed and developed -- Ability to display both image and recognized text side-by-side for traceability and quality check. -- Build system that was able to recognize characters above 90% accuracy."
+        },
+        {
+            "position": "Young Scientist",
+            "organization": "SERC-DST, IIT Kharagpur",
+            "duration": "Jun 2002 - Jun 2004",
+            "description": "Received funding award for conducting Research in the area of Complex Engineered Systems under the scheme of Fast Track proposals for Young Scientists -2001 from SERC-DST, Govt of India during the period of 2002-2004. The research work was carried out at IIT, Kharagpur. Project title: Development of Hybrid Computational Intelligent Systems for Modelling, Controlling and Optimization of Complex Systems."
+        }
     ],
-    "past": [
-      {
-        "code": "ME301",
-        "name": "Finite Element Analysis",
-        "semester": "Even Semester 2023"
-      }
-    ]
-  },
-  "students": {
-    "phd": [
-      {
-        "name": "Student Name",
-        "topic": "Research Topic",
-        "year": "2022 - Present",
-        "status": "Ongoing"
-      }
+    "education": [
+        {
+            "degree": "Ph.D., Computational Intelligence and Chaos Theory",
+            "institution": "Indian Institute of Technology, Kharagpur",
+            "year": "1999 \u2013 2002",
+            "description": "Thesis Title: Studies on Modelling of Real-World Chaotic Systems using Computational Intelligence Approach"
+        },
+        {
+            "degree": "M.Tech., Manufacturing Systems Engineering",
+            "institution": "Indian Institute of Technology, Kharagpur",
+            "year": "1996 \u2013 1998",
+            "description": "Thesis Title: Development of Online Learning Neuro-Controller for Robot Trajectory Tracking"
+        },
+        {
+            "degree": "B.Tech in Mechanical Engineering",
+            "institution": "Jawaharlal Nehru Technological University",
+            "year": "1992 \u2013 1996",
+            "description": "Project Work: COMPACT\u2014 Computerized Project Planning and Control System"
+        }
     ],
-    "mtech": [
-      {
-        "name": "Student Name",
-        "topic": "Thesis Topic",
-        "year": "2023",
-        "status": "Completed"
-      }
+    "skills": [
+        "C++",
+        "C",
+        "Weka",
+        "Data Mining",
+        "Predictive Analytics",
+        "Analytics",
+        "Predictive Modeling",
+        "Matlab",
+        "Algorithms",
+        "Data Analysis",
+        "Business Analytics",
+        "Statistical Modeling",
+        "SAS",
+        "Machine Learning"
+    ],
+    "publications": {
+        "journals": [
+            {
+                "title": "Artificial Neural Networks Model for Predicting Ultimate Analysis using Proximate Analysis of Coal",
+                "authors": "J. Krishnaiah, A. Lawrence, R. Dhanuskodi",
+                "journal": "International Journal of Computer Application",
+                "year": "April 2012 \u00b7 Apr 30, 2012",
+                "doi": "https://www.ijcaonline.org/archives/volume44/number2/6234-7829/"
+            },
+            {
+                "title": "Modelling and control of chaotic processes through their Bifurcation Diagrams generated with the help of Recurrent Neural Network models: Part 1\u2014simulation studies",
+                "authors": "J. Krishnaiah ,  C.S. Kumar ,  M.A. Faruqi",
+                "journal": "Journal of Process Control, Vol. 16, Issue 1, January 2006, Pages 53-66 \u00b7 Jan 1, 2006",
+                "year": "January 2006",
+                "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0959152405000387"
+            },
+            {
+                "title": "Modelling and control of chaotic processes through their bifurcation diagrams generated with the help of recurrent neural network models. Part 2: An industrial study",
+                "authors": "J. Krishnaiah ,  C.S. Kumar ,  M.A. Faruqi",
+                "journal": "Journal of Process Control, Vol. 16, Issue 1, January 2006, Pages 67-79 \u00b7 Jan 1, 2006",
+                "year": "January 2006",
+                "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0959152405000399"
+            }
+        ],
+        "conferences": [
+            {
+                "title": "Sample Conference Paper on Materials Characterization",
+                "authors": "J. Krishnaiah, et al.",
+                "conference": "International Conference on Manufacturing Technology",
+                "year": "2022",
+                "doi": "#"
+            }
+        ]
+    },
+    "teaching": {
+        "current": [
+            {
+                "code": "ME101",
+                "name": "Engineering Mechanics",
+                "semester": "Even Semester 2024"
+            },
+            {
+                "code": "ME201",
+                "name": "Manufacturing Processes",
+                "semester": "Odd Semester 2024"
+            }
+        ],
+        "past": [
+            {
+                "code": "ME301",
+                "name": "Finite Element Analysis",
+                "semester": "Even Semester 2023"
+            }
+        ]
+    },
+    "students": {
+        "phd": [
+            {
+                "name": "Student Name",
+                "topic": "Research Topic",
+                "year": "2022 - Present",
+                "status": "Ongoing"
+            }
+        ],
+        "mtech": [
+            {
+                "name": "Student Name",
+                "topic": "Thesis Topic",
+                "year": "2023",
+                "status": "Completed"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "title": "Project Title",
+            "agency": "Funding Agency",
+            "amount": "\u20b9XX Lakhs",
+            "duration": "2022 - 2024",
+            "description": "Brief description of the project."
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award/Recognition Name",
+            "organization": "Awarding Organization",
+            "year": "2023",
+            "description": "Brief description."
+        }
+    ],
+    "service": [
+        {
+            "role": "Reviewer",
+            "organization": "Journal of Manufacturing Science and Engineering",
+            "duration": "2020 - Present"
+        }
+    ],
+    "talks": [
+        {
+            "title": "Talk Title",
+            "event": "Event/Conference Name",
+            "location": "City, Country",
+            "date": "Month Year"
+        }
     ]
-  },
-  "projects": [
-    {
-      "title": "Project Title",
-      "agency": "Funding Agency",
-      "amount": "₹XX Lakhs",
-      "duration": "2022 - 2024",
-      "description": "Brief description of the project."
-    }
-  ],
-  "awards": [
-    {
-      "title": "Award/Recognition Name",
-      "organization": "Awarding Organization",
-      "year": "2023",
-      "description": "Brief description."
-    }
-  ],
-  "service": [
-    {
-      "role": "Reviewer",
-      "organization": "Journal of Manufacturing Science and Engineering",
-      "duration": "2020 - Present"
-    }
-  ],
-  "talks": [
-    {
-      "title": "Talk Title",
-      "event": "Event/Conference Name",
-      "location": "City, Country",
-      "date": "Month Year"
-    }
-  ]
 }
