@@ -1,0 +1,166 @@
+{
+  "profile": {
+    "name": "Dr. J. Krishnaiah",
+    "title": "Associate Professor",
+    "department": "Department of Mechanical Engineering",
+    "institution": "IIITDM Kurnool",
+    "email": "krishnaiah@iiitk.ac.in",
+    "phone": "+91-94425 44782",
+    "office": "Room No. XXX, IIITDM Kurnool",
+    "photo": "images/profile.jpg",
+    "googleScholar": "#",
+    "researchGate": "#",
+    "linkedin": "https://www.linkedin.com/in/tarun-nelli-b24824298",
+    "orcid": "#"
+  },
+  "biography": {
+    "summary": "Dr. J. Krishnaiah is an Associate Professor in the Department of Mechanical Engineering at IIITDM Kurnool. His research focuses on advanced manufacturing processes, materials characterization, and computational mechanics.",
+    "details": "He received his Ph.D. from IIT Karaghpur and has extensive experience in research and teaching. He has published several papers in reputed international journals and conferences."
+  },
+  "research": [
+    {
+      "title": "Advanced Manufacturing",
+      "description": "Research on additive manufacturing, CNC machining, and precision engineering processes.",
+      "image": "images/research1.jpg"
+    },
+    {
+      "title": "Materials Characterization",
+      "description": "Study of mechanical properties, microstructure, and failure analysis of engineering materials.",
+      "image": "images/research2.jpg"
+    },
+    {
+      "title": "Computational Mechanics",
+      "description": "Finite element analysis, simulation of manufacturing processes, and structural optimization.",
+      "image": "images/research3.jpg"
+    }
+  ],
+  "experience": [
+    {
+      "position": "Assistant Professor",
+      "organization": "IIITDM Kurnool",
+      "duration": "2020 - Present",
+      "description": "Teaching and research in Mechanical Engineering."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D. in Mechanical Engineering",
+      "institution": "Premier Institute, India",
+      "year": "2019",
+      "description": "Thesis on Advanced Manufacturing Processes"
+    },
+    {
+      "degree": "M.Tech in Manufacturing Engineering",
+      "institution": "University Name",
+      "year": "2014",
+      "description": ""
+    },
+    {
+      "degree": "B.Tech in Mechanical Engineering",
+      "institution": "University Name",
+      "year": "2012",
+      "description": ""
+    }
+  ],
+  "skills": [
+    "Advanced Manufacturing",
+    "Finite Element Analysis",
+    "MATLAB",
+    "ANSYS",
+    "SolidWorks",
+    "Python",
+    "CNC Programming",
+    "Materials Testing"
+  ],
+  "publications": {
+    "journals": [
+      {
+        "title": "Sample Journal Article Title on Advanced Manufacturing Processes",
+        "authors": "J. Krishnaiah, et al.",
+        "journal": "Journal of Manufacturing Science and Engineering",
+        "year": "2023",
+        "doi": "#"
+      }
+    ],
+    "conferences": [
+      {
+        "title": "Sample Conference Paper on Materials Characterization",
+        "authors": "J. Krishnaiah, et al.",
+        "conference": "International Conference on Manufacturing Technology",
+        "year": "2022",
+        "doi": "#"
+      }
+    ]
+  },
+  "teaching": {
+    "current": [
+      {
+        "code": "ME101",
+        "name": "Engineering Mechanics",
+        "semester": "Even Semester 2024"
+      },
+      {
+        "code": "ME201",
+        "name": "Manufacturing Processes",
+        "semester": "Odd Semester 2024"
+      }
+    ],
+    "past": [
+      {
+        "code": "ME301",
+        "name": "Finite Element Analysis",
+        "semester": "Even Semester 2023"
+      }
+    ]
+  },
+  "students": {
+    "phd": [
+      {
+        "name": "Student Name",
+        "topic": "Research Topic",
+        "year": "2022 - Present",
+        "status": "Ongoing"
+      }
+    ],
+    "mtech": [
+      {
+        "name": "Student Name",
+        "topic": "Thesis Topic",
+        "year": "2023",
+        "status": "Completed"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Project Title",
+      "agency": "Funding Agency",
+      "amount": "₹XX Lakhs",
+      "duration": "2022 - 2024",
+      "description": "Brief description of the project."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award/Recognition Name",
+      "organization": "Awarding Organization",
+      "year": "2023",
+      "description": "Brief description."
+    }
+  ],
+  "service": [
+    {
+      "role": "Reviewer",
+      "organization": "Journal of Manufacturing Science and Engineering",
+      "duration": "2020 - Present"
+    }
+  ],
+  "talks": [
+    {
+      "title": "Talk Title",
+      "event": "Event/Conference Name",
+      "location": "City, Country",
+      "date": "Month Year"
+    }
+  ]
+}

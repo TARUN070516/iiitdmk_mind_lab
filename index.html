@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. J. Krishnaiah | IIITDM Kurnool</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    .nav-brand { display: flex; align-items: center; gap: .65rem; text-decoration: none; }
+    .nav-logo  { height: 44px; width: 44px; border-radius: 50%; object-fit: cover;
+                 border: 2px solid rgba(255,255,255,.5); flex-shrink: 0; }
+    .nav-brand-text { display: flex; flex-direction: column; line-height: 1.2; }
+    .nav-lab   { font-size: .95rem; font-weight: 700; color: #fff; letter-spacing: .02em; }
+    .nav-name  { font-size: .72rem; font-weight: 400; color: rgba(255,255,255,.75); }
+    .nav-brand:hover .nav-lab  { color: #cce0f5; }
+    .nav-brand:hover .nav-name { color: rgba(255,255,255,.9); }
+  </style>
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a class="nav-brand" href="#home">
+      <img src="images/Minds_Lab.jpeg" alt="MindLab Logo" class="nav-logo" />
+      <span class="nav-brand-text"><span class="nav-lab">Mind Lab</span><span class="nav-name">Dr. J. Krishnaiah</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#biography">Biography</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#students">Students</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ========== HOME / PROFILE ========== -->
+<section id="home" class="hero-section">
+  <div class="hero-container">
+    <div class="hero-photo">
+      <img id="profilePhoto" src="images/profile.jpg" alt="Profile Photo" onerror="this.src='https://via.placeholder.com/200x200/1a5490/ffffff?text=Photo'" />
+    </div>
+    <div class="hero-info">
+      <h1 id="profileName">Dr. J. Krishnaiah</h1>
+      <p class="hero-title" id="profileTitle">Assistant Professor</p>
+      <p class="hero-dept" id="profileDept">Department of Mechanical Engineering</p>
+      <p class="hero-inst" id="profileInst">IIITDM Kurnool</p>
+      <div class="hero-contact">
+        <span><i class="fas fa-envelope"></i> <span id="profileEmail">—</span></span>
+        <span><i class="fas fa-phone"></i> <span id="profilePhone">—</span></span>
+        <span><i class="fas fa-map-marker-alt"></i> <span id="profileOffice">—</span></span>
+      </div>
+      <div class="hero-social" id="heroSocial"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== BIOGRAPHY ========== -->
+<section id="biography" class="section">
+  <div class="container">
+    <h2 class="section-title">Biography</h2>
+    <div class="bio-content">
+      <p class="bio-summary" id="bioSummary"></p>
+      <p class="bio-details" id="bioDetails"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== RESEARCH ========== -->
+<section id="research" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Research Interests</h2>
+    <div class="research-grid" id="researchGrid"></div>
+  </div>
+</section>
+
+<!-- ========== EXPERIENCE ========== -->
+<section id="experience" class="section">
+  <div class="container">
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline" id="experienceList"></div>
+  </div>
+</section>
+
+<!-- ========== EDUCATION ========== -->
+<section id="education" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline" id="educationList"></div>
+  </div>
+</section>
+
+<!-- ========== SKILLS ========== -->
+<section id="skills" class="section">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid" id="skillsList"></div>
+  </div>
+</section>
+
+<!-- ========== PUBLICATIONS ========== -->
+<section id="publications" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Publications</h2>
+    <h3 class="sub-title">Journal Articles</h3>
+    <div class="pub-list" id="journalList"></div>
+    <h3 class="sub-title" style="margin-top:2rem;">Conference Papers</h3>
+    <div class="pub-list" id="conferenceList"></div>
+  </div>
+</section>
+
+<!-- ========== TEACHING ========== -->
+<section id="teaching" class="section">
+  <div class="container">
+    <h2 class="section-title">Teaching</h2>
+    <h3 class="sub-title">Current Courses</h3>
+    <div class="course-grid" id="currentCourses"></div>
+    <h3 class="sub-title" style="margin-top:2rem;">Past Courses</h3>
+    <div class="course-grid" id="pastCourses"></div>
+  </div>
+</section>
+
+<!-- ========== STUDENTS ========== -->
+<section id="students" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Students</h2>
+    <h3 class="sub-title">Ph.D. Students</h3>
+    <div class="student-list" id="phdStudents"></div>
+    <h3 class="sub-title" style="margin-top:2rem;">M.Tech Students</h3>
+    <div class="student-list" id="mtechStudents"></div>
+  </div>
+</section>
+
+<!-- ========== PROJECTS ========== -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-list" id="projectList"></div>
+  </div>
+</section>
+
+<!-- ========== AWARDS ========== -->
+<section id="awards" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Awards &amp; Honors</h2>
+    <div class="award-list" id="awardList"></div>
+  </div>
+</section>
+
+<!-- ========== SERVICE ========== -->
+<section id="service" class="section">
+  <div class="container">
+    <h2 class="section-title">Service</h2>
+    <div class="service-list" id="serviceList"></div>
+  </div>
+</section>
+
+<!-- ========== TALKS ========== -->
+<section id="talks" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Invited Talks</h2>
+    <div class="talk-list" id="talkList"></div>
+  </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <i class="fas fa-envelope fa-2x"></i>
+        <h4>Email</h4>
+        <p id="contactEmail">—</p>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-phone fa-2x"></i>
+        <h4>Phone</h4>
+        <p id="contactPhone">—</p>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt fa-2x"></i>
+        <h4>Office</h4>
+        <p id="contactOffice">—</p>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-university fa-2x"></i>
+        <h4>Institution</h4>
+        <p id="contactInst">—</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; <span id="footerYear"></span> Dr. J. Krishnaiah, IIITDM Kurnool. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
